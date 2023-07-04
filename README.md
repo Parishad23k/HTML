@@ -1,8 +1,8 @@
-# HTML
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Webpage</title>
+  <title>PARISHAD</title>
   <style>
     body {
       margin: 0;
@@ -26,8 +26,8 @@
   </header>
   
   <main>
-    <h2>Main Content</h2>
-    <p>This is the main content area of the webpage.</p>
+    <h2>Hi i am PARISHAD</h2>
+    <p>i am very good person </p>
   </main>
 </body>
 </html>
