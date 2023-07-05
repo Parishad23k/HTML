@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+   
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+        .card {
+      width: 300px; 
+      height: 450px; 
+      margin: 10px; 
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    
+    
+    .card h2 {
+      margin-top: 10px;
+    }
+    
+    
+    .card p {
+      margin-top: 10px;
+    }
+    
+   
+    @media screen and (max-width: 768px) {
+      .card {
+        width: 250px;
+        height: 350px;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .card {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://cdn11.bigcommerce.com/s-spem6oukby/images/stencil/640w/products/123/447/JC__86231__74895.1681313265.jpg?c=1" alt="Image 1">
+      <h2>JACK</h2>
+      <p>Jack of Clubs</p>
+    </div>
+    
+    <div class="card">
+      <img src="https://cdn11.bigcommerce.com/s-spem6oukby/images/stencil/1280x1280/products/123/448/QD__14920__31462.1681313265.jpg?c=1" alt="Image 2">
+      <h2>QUEEN</h2>
+      <p>Queen of Diamonds</p>
+    </div>
+    
+    <div class="card">
+      <img src="https://cdn11.bigcommerce.com/s-spem6oukby/images/stencil/1280x1280/products/123/446/KH__01216__30660.1681470474.png?c=1" alt="Image 3">
+      <h2>KING</h2>
+      <p>King of Hearts</p>
+    </div>
+  </div>
+</body>
+</html>
